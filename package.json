@@ -9,7 +9,8 @@
   },
   "devDependencies": {
     "forever": "^0.15.3",
-    "now": "^12.1.7"
+    "now": "^12.1.7",
+    "yarn": "^1.12.3"
   },
   "scripts": {
     "develop": "forever -w server.js"

@@ -1,6 +1,6 @@
 const app = require("express")()
 const fs = require("fs")
-let dirs = fs.readdirSync(__dirname + "/lamda")
+let dirs = fs.readdirSync(__dirname + "/lambda")
 for (let v of ["get", "post"]) {
   app[v]("/*", (req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*")
@@ -10,7 +10,7 @@ for (let v of ["get", "post"]) {
 }
 
 for (let v of dirs) {
-  let func = require(__dirname + `/lamda/${v}`)
+  let func = require(__dirname + `/lambda/${v}`)
   let p = v.split(".")[0]
   app.get(`/${p}`, func)
 }
