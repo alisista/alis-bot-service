@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "lambda/tip-service.js", "use": "@now/node", "config": { "maxLambdaSize": "50mb" } }
+  ]
+}

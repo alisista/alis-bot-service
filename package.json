@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "alis": "^0.4.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10",
+    "monk": "^6.0.6",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "forever": "^0.15.3",
+    "now": "^12.1.7"
+  },
+  "scripts": {
+    "develop": "forever -w server.js"
+  },
+  "name": "alis-bot-service",
+  "version": "0.0.1",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}

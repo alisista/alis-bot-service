@@ -1,0 +1,71 @@
+{
+    "Items": [{
+        "user_id": "ocrybit",
+        "created_at": 1543477516,
+        "article_title": "【AHT賞】クロスコミュニティイラストコンテスト",
+        "acted_user_id": "Kaichi",
+        "notification_id": "comment-ocrybit-aplpw49qGVPr",
+        "sort_key": 1543477516325996,
+        "article_id": "3Qjr7Y5DxwEN",
+        "type": "comment"
+    }, {
+        "user_id": "ocrybit",
+        "created_at": 1543469128,
+        "article_title": "【AHT賞】クロスコミュニティイラストコンテスト",
+        "acted_user_id": "coron",
+        "notification_id": "comment-ocrybit-375bZD54MQDX",
+        "sort_key": 1543469128117661,
+        "article_id": "3Qjr7Y5DxwEN",
+        "type": "comment"
+    }, {
+        "user_id": "ocrybit",
+        "created_at": 1543368754,
+        "article_title": "【AHT賞】クロスコミュニティイラストコンテスト",
+        "notification_id": "like-ocrybit-3Qjr7Y5DxwEN",
+        "sort_key": 1543469069819061,
+        "liked_count": 40,
+        "article_id": "3Qjr7Y5DxwEN",
+        "type": "like"
+    }, {
+        "user_id": "ocrybit",
+        "created_at": 1543463654,
+        "article_title": "【AHT賞】クロスコミュニティイラストコンテスト",
+        "acted_user_id": "KoichiMiwa",
+        "notification_id": "comment-ocrybit-375bZx6rx4pN",
+        "sort_key": 1543463654868251,
+        "article_id": "3Qjr7Y5DxwEN",
+        "type": "comment"
+    }, {
+        "user_id": "ocrybit",
+        "created_at": 1543452623,
+        "article_title": "【AHT賞】クロスコミュニティイラストコンテスト",
+        "acted_user_id": "yuuki",
+        "tip_value": 11111111111111112,
+        "notification_id": "41199ec3fcf408e8bdbd4f7e725b5e135cedb869e3b5acbb326dac14f32813e3",
+        "sort_key": 1543452623492120,
+        "article_id": "3Qjr7Y5DxwEN",
+        "article_user_id": "ocrybit",
+        "type": "tip"
+    }],
+    "Count": 5,
+    "ScannedCount": 5,
+    "LastEvaluatedKey": {
+        "sort_key": 1543452623492120,
+        "notification_id": "41199ec3fcf408e8bdbd4f7e725b5e135cedb869e3b5acbb326dac14f32813e3",
+        "user_id": "ocrybit"
+    },
+    "ResponseMetadata": {
+        "RequestId": "0KUMI4BQV5V4HEF81C9RHKP33JVV4KQNSO5AEMVJF66Q9ASUAAJG",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "server": "Server",
+            "date": "Thu, 29 Nov 2018 08:35:25 GMT",
+            "content-type": "application/x-amz-json-1.0",
+            "content-length": "1956",
+            "connection": "keep-alive",
+            "x-amzn-requestid": "0KUMI4BQV5V4HEF81C9RHKP33JVV4KQNSO5AEMVJF66Q9ASUAAJG",
+            "x-amz-crc32": "1887832506"
+        },
+        "RetryAttempts": 0
+    }
+}
