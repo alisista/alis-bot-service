@@ -25,10 +25,15 @@ module.exports = async (req, res) => {
     let tips_received = {}
     for (let v of json.Items) {
       if (v.type === "tip") {
+        v.tip_value_normalized = v.tip_value / tip_divider
+        console.log(
+          `[${v.article_id}] ${v.tip_value_normalized} ALIS from ${
+            v.acted_user_id
+          }`
+        )
         if (typeof tips_received[v.article_id] === "undefined") {
           tips_received[v.article_id] = []
         }
-        v.tip_value_normalized = v.tip_value / tip_divider
         tips_received[v.article_id].push(v)
         if (typeof actions[v.article_id] !== "undefined") {
           let id = `${v.acted_user_id}@${v.created_at}`
