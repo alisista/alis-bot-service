@@ -10,18 +10,15 @@ let actions = require("../lib/actions")
 global.fetch = require("node-fetch").default
 
 const tip_divider = 1000000000000000000
+
+const cred = require("../lib/cred")
+
 module.exports = async (req, res) => {
   let tipped = {}
   let actions_executed = []
   const { query } = parse(req.url, true)
   try {
-    let json = await alis.p.me.notifications(
-      { limit: 100 },
-      {
-        username: process.env.ALIS_USERNAME,
-        password: process.env.ALIS_PASSWORD
-      }
-    )
+    let json = await alis.p.me.notifications({ limit: 100 }, cred())
     let tips_received = {}
     for (let v of json.Items) {
       if (v.type === "tip") {
